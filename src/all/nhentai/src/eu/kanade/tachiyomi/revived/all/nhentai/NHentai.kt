@@ -42,7 +42,7 @@ open class NHentai(
     private val nhLang: String,
 ) : ConfigurableSource, ParsedHttpSource() {
 
-    final override val baseUrl = "https://nhentai.net"
+    final override val baseUrl = "https://nhentai.xxx"
 
     override val id by lazy { if (lang == "all") 7309872737163460316 else super.id }
 
